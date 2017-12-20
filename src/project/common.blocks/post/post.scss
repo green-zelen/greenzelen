@@ -9,5 +9,10 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+		.description  {
+			&.right {
+				padding-left: 2rem;
+			}
+		}
 	}
 }
