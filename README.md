@@ -42,7 +42,7 @@ npm install --save-dev cssnano
 npm install --save-dev postcss-strip-inline-comments
 npm install -save-dev postcss-short
 npm install --save-dev gulp-csslint
-npm install --save-dev pug
+npm install --save-dev gulp-pug
 
 ```
 ## Directory structure

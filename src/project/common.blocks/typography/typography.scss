@@ -1,0 +1,37 @@
+// Typography
+
+body {
+	color: $black;
+	font-family: $regular_font;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+	color: $black;
+	font-family: $regular_font;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+a {
+	color: $teal;
+	&:hover {
+		outline: none;
+		color: $dark_teal;
+	}
+}
+
+.greeting {
+	text-align: center;
+	margin-bottom: 2rem;
+}

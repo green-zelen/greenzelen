@@ -1,0 +1,21 @@
+// Header
+
+.header {
+	padding: 5rem 5rem 2rem;
+	.avatar {
+		text-align: center;
+		display: block;
+		img {
+			border-radius: 100%;
+			border: .5rem solid $light_teal;
+			width: 10rem;
+		}
+	}
+	.socials {
+		margin: 2rem auto;
+		width: 300px;
+		a {
+			font-size: 2rem;
+		}
+	}
+}
