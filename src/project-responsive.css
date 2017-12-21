@@ -14,11 +14,24 @@
         width: 280px;
         margin: auto;
         .line {
-        	.description {
-        		&.right {
-        			padding: 0;
-        		}
-        	}
+            .description {
+                &.web {
+                    width: 100%;
+                }
+                &.right {
+                    padding: 0;
+                }
+                &.left {
+                    padding: 0;
+                }
+            }
+            .image {
+                &.web {
+                    img {
+                    	width: 100%;
+                    }
+                }
+            }
         }
     }
 }
